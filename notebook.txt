@@ -1,0 +1,50 @@
+---- Java script course - notebook Omer Dagan ----
+
+- statments must end with a semicolon the same as in C
+-
+
+** external files **
+1. java script can either be embedded directly in an html file or 'js' file
+	see demo.js and test.html
+2. external files, i.e. '.js' extension cannot contain '<script>' tags
+3. to embbed a external file use '<script src="SRC_FILE"></script>'
+4. advantage of external file use
+	a. seperate HTML from code
+	b. better readability and maintainability
+	c. Cached files improve loadtime - if the same logic is used across the site then external 
+		files can greatly improve performance
+
+** variables **
+*** variable naming rules ***
+- The first character must be:
+	--letter
+	--underscore (_)
+	--a dollar sign ($)
+  Subsequent characters may be letters, digits, underscores, or dollar signs.
+- Numbers are not allowed as the first character.
+- Variable names cannot include a mathematical or logical operator in the name. 
+	For instance, 2*something or this+that;
+- JavaScript names must not contain spaces.
+- Hyphens are not allowed in JavaScript. It is reserved for subtractions.
+
+*** string excape charecters ***
+- \' , \" , \\ - backlash , \n - newline , \r - carrige return , \t - tab , \b - backspace
+  \f - form feed
+
+1. variables in javascript are case sensitive
+2. 'var' keyword denotes a variable
+3. numbers are always stored as double precision floating point
+4. strings:
+	- can be defined either by single or double quotes
+	- string can contain a quotes as long as they dont match the surronding quotes
+
+*** operators *** 
+for most, operators are the same as in C with the exception of the identity operator
+ which compares value and type. to better understand this:
+			var number = 5;
+			var string = "5";
+			number == string;   —> true
+			number === string; —> false (value is equal but the type is not)
+
+5. JS also support shortend if i.e. 'variable = (condition) ? true_value: false_value'
+
