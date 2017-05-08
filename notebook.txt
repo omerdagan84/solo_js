@@ -48,3 +48,5 @@ for most, operators are the same as in C with the exception of the identity oper
 
 5. JS also support shortend if i.e. 'variable = (condition) ? true_value: false_value'
 
+*** functions ***
+
