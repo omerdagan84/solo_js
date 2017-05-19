@@ -1,5 +1,5 @@
 function show() {
-//	alert("Hi there");
+	//	alert("Hi there");
 
 	var x = document.getElementById('show');
 	x.innerHTML = Date();
@@ -8,7 +8,11 @@ function show() {
 window.onload = function () {
 	var x = document.getElementById('test');
 	x.onclick = function() {
-	var par = document.getElementById('show');
+		var par = document.getElementById('show');
 		par.innerHTML = "test";
 	}
+}
+function change() {
+	var x = document.getElementById("name");
+	x.value= x.value.toUpperCase();
 }
