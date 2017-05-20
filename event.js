@@ -16,3 +16,5 @@ function change() {
 	var x = document.getElementById("name");
 	x.value= x.value.toUpperCase();
 }
+var btn = document.getElementById("toUpper");
+btn.addEventListener("click", change);
